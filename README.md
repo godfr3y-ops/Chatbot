@@ -3,6 +3,7 @@ University Enquiries Chatbot
 
  #Manual 
 Install python 2.7 or greater 
+
 PRE-REQUISITES
 Install the following libraries:
 pip install Flask
