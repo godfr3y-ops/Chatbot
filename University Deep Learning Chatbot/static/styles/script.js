@@ -19,10 +19,9 @@
 
   function linkify(text) {
     const escaped = escapeHtml(text);
-    return escaped.replace(
-      /(https?:\/\/[^\s]+)/g,
-      '<a href="$1" target="_blank" rel="noopener">$1</a>'
-    );
+    return escaped
+      .replace(/(https?:\/\/[^\s]+)/g, '<a href="$1" target="_blank" rel="noopener">$1</a>')
+      .replace(/\n/g, "<br>");
   }
 
   function scrollToBottom() {
