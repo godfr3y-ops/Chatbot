@@ -6,15 +6,18 @@
         "hi",
         "hello",
         "hey",
+        "good morning",
+        "good afternoon",
+        "good evening",
         "how are you",
-        "is anyone there"
+        "is anyone there",
+        "greetings",
+        "hola"
       ],
       "responses": [
-        "Hi stranger",
-        "Yebo yes, how can I help",
-        "Ey watsupp",
-        "How's it",
-        "Hola"
+        "Hello! I am BUSE Bot, your Bindura University of Science Education assistant. How can I help you today?",
+        "Welcome to BUSE Bot. Ask me about admissions, fees, faculties, accommodation, or campus services.",
+        "Hi there! I can help with BUSE programmes, applications, fees, and student life. What would you like to know?"
       ]
     },
     {
@@ -24,14 +27,15 @@
         "see you later",
         "goodbye",
         "ok bye",
-        "bye bye"
+        "bye bye",
+        "farewell",
+        "that is all",
+        "that's all"
       ],
       "responses": [
-        "See you!",
-        "Have a nice day",
-        "Sure Bye",
-        "Later dude",
-        "Peace out"
+        "Goodbye! If you need more information about BUSE later, I am here to help.",
+        "Thank you for chatting with BUSE Bot. Have a great day!",
+        "Take care. Visit https://www.buse.ac.zw for more official updates."
       ]
     },
     {
@@ -40,15 +44,14 @@
         "thanks",
         "thank you",
         "that's helpful",
-        "awesome, thanks",
-        "thanks for helping me"
+        "awesome thanks",
+        "thanks for helping me",
+        "much appreciated"
       ],
       "responses": [
-        "Happy to help!",
-        "Any time!",
-        "My pleasure",
-        "You are welcome",
-        "Sure dude"
+        "You are welcome. Happy to help!",
+        "Glad I could assist. Feel free to ask another question about BUSE.",
+        "My pleasure. Is there anything else you would like to know?"
       ]
     },
     {
@@ -57,12 +60,12 @@
         "what is your name",
         "what's your name",
         "tell me your name",
-        "who are you"
+        "who are you",
+        "what are you"
       ],
       "responses": [
-        "I am BUSE Bot",
-        "My name is BUSE Bot",
-        "BUSE Bot is my name"
+        "I am BUSE Bot, the Bindura University of Science Education enquiry assistant.",
+        "My name is BUSE Bot. I answer questions about Bindura University of Science Education."
       ]
     },
     {
@@ -71,7 +74,10 @@
         "tell me about buse",
         "what is buse",
         "buse history",
-        "buse background"
+        "buse background",
+        "history of buse",
+        "background of the university",
+        "when was buse founded"
       ],
       "responses": [
         "Bindura University of Science Education (BUSE) has a rich history dating back to 1996 when it opened its doors as a college of science education.",
@@ -121,10 +127,14 @@
       "patterns": [
         "buse entry requirements",
         "entry requirements for buse",
-        "what are the entry requirements for buse"
+        "what are the entry requirements for buse",
+        "entry requirements",
+        "culture and heritage entry requirements",
+        "Bindura University entry requirements"
       ],
       "responses": [
-        "Entry requirements vary by program, but generally, you'll need 5 ordinary Level passes, including Mathematics and English Language, and 2 Advanced Level subject passes or their equivalent."
+        "Entry requirements vary by program, but generally, you'll need 5 ordinary Level passes, including Mathematics and English Language, and 2 Advanced Level subject passes or their equivalent.",
+        "To qualify for normal entry into the Bachelor of Science (Honours) degree in Culture and Heritage Studies, prospective students must have obtained at least five 'O' Level subjects, including English Language passed with a Grade C or better, and have obtained 'A' level passes in at least two of the Arts and Humanities subjects."
       ]
     },
     {
@@ -143,10 +153,15 @@
       "patterns": [
         "buse postgraduate programs",
         "postgraduate programs at buse",
-        "what postgraduate programs are offered at buse"
+        "what postgraduate programs are offered at buse",
+        "postgraduate programs",
+        "postgraduate degrees",
+        "masters programs",
+        "phd programs",
+        "postgraduate studies"
       ],
       "responses": [
-        "Our postgraduate programs include Master's and Doctoral degrees, with various specializations. Check our website for specific requirements and application procedures."
+        "Our postgraduate programs include Master's and Doctoral degrees, with various specializations. Check our website for specific requirements and application procedures.\nWe offer various postgraduate programs, including:\n• Master of Science Education degrees (e.g., MScEDMAE, Measurement, Assessment and Evaluation)\n• Master of Science degrees in various fields (e.g., Biodiversity Conservation, Applied Microbiology, Environmental Physics, Analytical Chemistry, Inorganic Chemistry, Disaster Risk Management, Physical Chemistry, Natural Resources Management, Climate Change and Sustainable Development)\n• Postgraduate Diploma in Statistics and Financial Mathematics\n• Master's degrees in Business and Leadership (e.g., MBA, MSc in Entrepreneurship and Innovation, Executive MBA, MSc in Leadership and Corporate Governance)\n• Doctor of Philosophy (PhD) in various fields"
       ]
     },
     {
@@ -154,31 +169,13 @@
       "patterns": [
         "Masters degrees",
         "Applying for masters degree",
-        "requirements for masters degreee"
-      ],
-      "responses": [
-        "Masters Degrees by coursework. The normal entry requirements is an appropriate degree, professional qualification and experience or approved equivalent qualification. Other qualifications may be considered by the Senate on the recommendations of the departments and faculties concerned."
-      ]
-    },
-    {
-      "tag": "postgraduateprograms",
-      "patterns": [
-        "buse postgraduate programs",
-        "postgraduate programs at buse",
-        "what postgraduate programs are offered at buse"
-      ],
-      "responses": [
-        "Our postgraduate programs include Master's and Doctoral degrees, with various specializations. Check our website for specific requirements and application procedures."
-      ]
-    },
-    {
-      "tag": "mastersdegree",
-      "patterns": [
+        "requirements for masters degreee",
         "buse masters degree",
         "masters degree at buse",
         "what is the masters degree program at buse"
       ],
       "responses": [
+        "Masters Degrees by coursework. The normal entry requirements is an appropriate degree, professional qualification and experience or approved equivalent qualification. Other qualifications may be considered by the Senate on the recommendations of the departments and faculties concerned.",
         "Our Master's degree programs are designed to provide advanced knowledge and skills in various fields. Check our website for specific program details and requirements."
       ]
     },
@@ -249,24 +246,6 @@
       ]
     },
     {
-      "tag": "postgraduateprograms",
-      "patterns": [
-        "postgraduate programs",
-        "postgraduate degrees",
-        "masters programs",
-        "phd programs",
-        "postgraduate studies"
-      ],
-      "responses": [
-        "We offer various postgraduate programs, including:",
-        "• Master of Science Education degrees (e.g., MScEDMAE, Measurement, Assessment and Evaluation)",
-        "• Master of Science degrees in various fields (e.g., Biodiversity Conservation, Applied Microbiology, Environmental Physics, Analytical Chemistry, Inorganic Chemistry, Disaster Risk Management, Physical Chemistry, Natural Resources Management, Climate Change and Sustainable Development)",
-        "• Postgraduate Diploma in Statistics and Financial Mathematics",
-        "• Master's degrees in Business and Leadership (e.g., MBA, MSc in Entrepreneurship and Innovation, Executive MBA, MSc in Leadership and Corporate Governance)",
-        "• Doctor of Philosophy (PhD) in various fields"
-      ]
-    },
-    {
       "tag": "feesstructure",
       "patterns": [
         "fees structure",
@@ -278,11 +257,7 @@
         "international student fees"
       ],
       "responses": [
-        "Here is the fees structure for Bindura University of Science Education:",
-        "• Faculty of Commerce & Social Sciences & Humanities: US$665 (Part 1 & 2), US$525 (Part 3), US$665 (Part 4)",
-        "• Faculty of Science & Engineering, Agriculture & Science Education: US$725 (Part 1 & 2), US$563 (Part 3), US$705 (Part 3)",
-        "• Medicine – Optometry: US$745 (All Parts, Part 1 to 4)",
-        "• Diploma in Sciences Education: US$595 (Part 1 to 2.1), US$485 (Part 2.2 & 3.1), US$575 (Part 3.2)"
+        "Here is the fees structure for Bindura University of Science Education:\n• Faculty of Commerce & Social Sciences & Humanities: US$665 (Part 1 & 2), US$525 (Part 3), US$665 (Part 4)\n• Faculty of Science & Engineering, Agriculture & Science Education: US$725 (Part 1 & 2), US$563 (Part 3), US$705 (Part 3)\n• Medicine – Optometry: US$745 (All Parts, Part 1 to 4)\n• Diploma in Sciences Education: US$595 (Part 1 to 2.1), US$485 (Part 2.2 & 3.1), US$575 (Part 3.2)"
       ]
     },
     {
@@ -296,9 +271,7 @@
         "study abroad"
       ],
       "responses": [
-        "Welcome international students! Our International Relations Office provides various services to support your transition to Bindura University of Science Education.",
-        "We assist with: visa issues, accommodation, counselling, exchange opportunities, and international university resources.",
-        "Tuition fees for international students are US$2,500 per semester."
+        "Welcome international students! Our International Relations Office provides various services to support your transition to Bindura University of Science Education.\nWe assist with: visa issues, accommodation, counselling, exchange opportunities, and international university resources.\nTuition fees for international students are US$2,500 per semester."
       ]
     },
     {
@@ -308,12 +281,18 @@
         "halls of residence",
         "student housing",
         "on-campus accommodation",
-        "off-campus accommodation"
+        "off-campus accommodation",
+        "tell me about accommodation",
+        "student accommodation",
+        "housing at buse",
+        "where can I stay",
+        "residence halls",
+        "do you offer accommodation",
+        "on campus accommodation",
+        "off campus accommodation"
       ],
       "responses": [
-        "We offer on-campus accommodation for international students, including halls of residence and self-catering apartments.",
-        "Our accommodation services include: meals in dining halls, basic furniture, and support for private accommodation arrangements.",
-        "International students are integrated with local students in university residences, promoting a diverse and inclusive community."
+        "We offer on-campus accommodation for international students, including halls of residence and self-catering apartments.\nOur accommodation services include: meals in dining halls, basic furniture, and support for private accommodation arrangements.\nInternational students are integrated with local students in university residences, promoting a diverse and inclusive community."
       ]
     },
     {
@@ -325,15 +304,13 @@
         "academic year",
         "student organizations",
         "health and counselling",
-        "sports and recreation"
+        "sports and recreation",
+        "what is campus life like",
+        "student life at buse",
+        "life on campus"
       ],
       "responses": [
-        "Welcome to Campus Life at Bindura University of Science Education!",
-        "Orientation Programme: Join our 5-day orientation programme to get acquainted with the university facilities and environment.",
-        "Academic Year: Our academic year consists of two semesters, with the first semester running from August to December and the second semester from February to June.",
-        "Student Organizations: Join our 50+ student organizations, clubs, and societies to experience our vibrant social life on campus.",
-        "Student Health and Counselling: Our campus has student health facilities, including general practitioners, nurses, psychiatrists, and psychologists. We also offer counselling services at departmental and faculty levels.",
-        "Sports and Recreation: Our Department of Sports offers a wide range of activities, from soccer and basketball to swimming and theatre, catering to all interests and levels of commitment."
+        "Welcome to Campus Life at Bindura University of Science Education!\nOrientation Programme: Join our 5-day orientation programme to get acquainted with the university facilities and environment.\nAcademic Year: Our academic year consists of two semesters, with the first semester running from August to December and the second semester from February to June.\nStudent Organizations: Join our 50+ student organizations, clubs, and societies to experience our vibrant social life on campus.\nStudent Health and Counselling: Our campus has student health facilities, including general practitioners, nurses, psychiatrists, and psychologists. We also offer counselling services at departmental and faculty levels.\nSports and Recreation: Our Department of Sports offers a wide range of activities, from soccer and basketball to swimming and theatre, catering to all interests and levels of commitment."
       ]
     },
     {
@@ -354,7 +331,7 @@
       ]
     },
     {
-      "tag": "Registrar",
+      "tag": "registrar",
       "patterns": [
         "Registrar",
         "Who is the University Registrar",
@@ -368,7 +345,7 @@
       ]
     },
     {
-      "tag": "Librarian",
+      "tag": "librarian",
       "patterns": [
         "Librarian",
         "Who is the University Librarian",
@@ -384,7 +361,7 @@
       "patterns": [
         "National Sports Academy",
         "sports academy",
-        " Bindura University sports",
+        "Bindura University sports",
         "sports development"
       ],
       "responses": [
@@ -416,7 +393,7 @@
       ]
     },
     {
-      "tag": "sportsscience department",
+      "tag": "sportsscience_department",
       "patterns": [
         "Department of Sports Science",
         "sports science department",
@@ -443,10 +420,15 @@
         "Sports and Recreation",
         "student affairs sports",
         "sports activities",
-        "recreational activities"
+        "recreational activities",
+        "university sports",
+        "student sports",
+        "gymnasium",
+        "fitness center"
       ],
       "responses": [
-        "Sport is considered a cornerstone for the overall development of students at Bindura University. The Sports and Recreation department fosters learning across three domains: cognitive, affective, and psychomotor."
+        "Sport is considered a cornerstone for the overall development of students at Bindura University. The Sports and Recreation department fosters learning across three domains: cognitive, affective, and psychomotor.",
+        "The Sports and Recreation department at Bindura University of Science Education aims to promote physical and mental well-being through various sports and recreational activities, including traditional team games, tournaments, and fitness programs. Our state-of-the-art gymnasium is available to students, staff, and the community at a nominal fee."
       ]
     },
     {
@@ -520,7 +502,7 @@
       "patterns": [
         "Department of Agricultural Economics, Education, and Extension",
         "agriculture department",
-        " Bindura University agriculture department"
+        "Bindura University agriculture department"
       ],
       "responses": [
         "This department offers the Bachelor of Agricultural Science Honours Degree (Agricultural Economics and Management) program, available under conventional or block release arrangements."
@@ -541,7 +523,7 @@
       "tag": "facultyvalues",
       "patterns": [
         "faculty values",
-        " Bindura University faculty values",
+        "Bindura University faculty values",
         "FAES values"
       ],
       "responses": [
@@ -564,10 +546,15 @@
       "patterns": [
         "mission",
         "optometry mission",
-        "Bindura University optometry mission"
+        "Bindura University optometry mission",
+        "culture and heritage mission",
+        "Bindura University mission",
+        "What is the mission of Bindura University?"
       ],
       "responses": [
-        "The Optometry department aims to improve each patient's visual health and quality of life through extensive training of optometrists."
+        "The Optometry department aims to improve each patient's visual health and quality of life through extensive training of optometrists.",
+        "The department aims to celebrate cultural diversity, preserve heritage, and foster intergenerational connections.",
+        "Our mission is to produce responsible, knowledgeable, skilled, innovative and entrepreneurial graduates through teaching, research innovation; and develop products and services for industrialisation and community transformation."
       ]
     },
     {
@@ -575,10 +562,15 @@
       "patterns": [
         "vision",
         "optometry vision",
-        "Bindura University optometry vision"
+        "Bindura University optometry vision",
+        "culture and heritage vision",
+        "Bindura University vision",
+        "What is the vision of Bindura University?"
       ],
       "responses": [
-        "The department aspires to be an institution of exceptional training for optometrists, delivering comprehensive eye care to patients of all ages with different ocular challenges."
+        "The department aspires to be an institution of exceptional training for optometrists, delivering comprehensive eye care to patients of all ages with different ocular challenges.",
+        "The Department of Culture and Heritage Studies envisions contributing to building a society where culture and heritage serve as the foundation of human civilization.",
+        "Our vision is to be an internationally renowned university producing transformative and innovative graduates."
       ]
     },
     {
@@ -655,39 +647,6 @@
       ],
       "responses": [
         "The department prioritizes inclusivity, creativity, and social responsibility."
-      ]
-    },
-    {
-      "tag": "vision",
-      "patterns": [
-        "vision",
-        "culture and heritage vision",
-        "Bindura University vision"
-      ],
-      "responses": [
-        "The Department of Culture and Heritage Studies envisions contributing to building a society where culture and heritage serve as the foundation of human civilization."
-      ]
-    },
-    {
-      "tag": "mission",
-      "patterns": [
-        "mission",
-        "culture and heritage mission",
-        "Bindura University mission"
-      ],
-      "responses": [
-        "The department aims to celebrate cultural diversity, preserve heritage, and foster intergenerational connections."
-      ]
-    },
-    {
-      "tag": "entryrequirements",
-      "patterns": [
-        "entry requirements",
-        "culture and heritage entry requirements",
-        "Bindura University entry requirements"
-      ],
-      "responses": [
-        "To qualify for normal entry into the Bachelor of Science (Honours) degree in Culture and Heritage Studies, prospective students must have obtained at least five 'O' Level subjects, including English Language passed with a Grade C or better, and have obtained 'A' level passes in at least two of the Arts and Humanities subjects."
       ]
     },
     {
@@ -814,7 +773,13 @@
       "tag": "librarylocation",
       "patterns": [
         "library location",
-        "BUSE library address"
+        "BUSE library address",
+        "library",
+        "where is the library",
+        "buse library",
+        "find the library",
+        "university library",
+        "library hours"
       ],
       "responses": [
         "The library is located at the Town Campus in Bindura, Zimbabwe."
@@ -938,26 +903,6 @@
       ],
       "responses": [
         "Pressure groups involved in promoting religious coexistence include the Zimbabwe Council of Churches, Evangelical Fellowship of Zimbabwe, Zimbabwe Christian Alliance, Muslim and traditional healer associations."
-      ]
-    },
-    {
-      "tag": "vision",
-      "patterns": [
-        "What is the vision of Bindura University?",
-        "Bindura University vision"
-      ],
-      "responses": [
-        "Our vision is to be an internationally renowned university producing transformative and innovative graduates."
-      ]
-    },
-    {
-      "tag": "mission",
-      "patterns": [
-        "What is the mission of Bindura University?",
-        "Bindura University mission"
-      ],
-      "responses": [
-        "Our mission is to produce responsible, knowledgeable, skilled, innovative and entrepreneurial graduates through teaching, research innovation; and develop products and services for industrialisation and community transformation."
       ]
     },
     {
@@ -1122,20 +1067,6 @@
       ]
     },
     {
-      "tag": "sportsandrecreation",
-      "patterns": [
-        "sports and recreation",
-        "university sports",
-        "student sports",
-        "recreational activities",
-        "gymnasium",
-        "fitness center"
-      ],
-      "responses": [
-        "The Sports and Recreation department at Bindura University of Science Education aims to promote physical and mental well-being through various sports and recreational activities, including traditional team games, tournaments, and fitness programs. Our state-of-the-art gymnasium is available to students, staff, and the community at a nominal fee."
-      ]
-    },
-    {
       "tag": "campusaccommodation",
       "patterns": [
         "campus accommodation",
@@ -1197,6 +1128,82 @@
       ],
       "responses": [
         "The Registry Department at Bindura University of Science Education, headed by the Registrar, is responsible for ensuring the university's compliance with legal frameworks and statutes. The department oversees academic regulations, student admissions, registration, records, examinations, faculty administration, and teaching and learning facilities, as well as liaison services for international students."
+      ]
+    },
+    {
+      "tag": "help",
+      "patterns": [
+        "help",
+        "what can you do",
+        "how can you help",
+        "menu",
+        "options",
+        "what topics",
+        "what can I ask",
+        "assist me"
+      ],
+      "responses": [
+        "I can help with BUSE topics such as admissions and applications, entry requirements, fees, faculties and programmes, accommodation, library services, campus life, contacts, and student affairs. Try asking a question or tap a quick topic below."
+      ]
+    },
+    {
+      "tag": "website",
+      "patterns": [
+        "buse website",
+        "official website",
+        "university website",
+        "where is the website",
+        "buse.ac.zw",
+        "online portal",
+        "student portal"
+      ],
+      "responses": [
+        "The official Bindura University of Science Education website is https://www.buse.ac.zw. You can find admissions forms, announcements, and faculty information there."
+      ]
+    },
+    {
+      "tag": "contact",
+      "patterns": [
+        "contact buse",
+        "how to contact",
+        "phone number",
+        "email address",
+        "contact details",
+        "how do I reach buse",
+        "university contacts"
+      ],
+      "responses": [
+        "For general enquiries, visit https://www.buse.ac.zw or contact the Registry / Admissions Office through the official university channels listed on the website. You can also ask me about specific offices such as the Registrar, Bursar, or ICT Department."
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "where is buse",
+        "buse location",
+        "buse address",
+        "where is the campus",
+        "campus location",
+        "how to get to buse",
+        "bindura campus",
+        "where is buse located",
+        "buse physical address",
+        "campus address in bindura"
+      ],
+      "responses": [
+        "Bindura University of Science Education is located in Bindura, Zimbabwe, with operations across campuses including the main FSE campus, Astra, and Town campus. Check https://www.buse.ac.zw for directions and campus details."
+      ]
+    },
+    {
+      "tag": "unknown",
+      "patterns": [
+        "asdfgh",
+        "zzzzz",
+        "qwertyuiop",
+        "this is nonsense text xyz"
+      ],
+      "responses": [
+        "I am not sure about that yet. Try asking about admissions, fees, faculties, accommodation, library services, or campus contacts — or visit https://www.buse.ac.zw for official information."
       ]
     }
   ]

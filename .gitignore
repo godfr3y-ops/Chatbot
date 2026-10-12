@@ -130,6 +130,9 @@ ENV/
 env.bak/
 venv.bak/
 
+# BUSE Bot local feedback store
+University Deep Learning Chatbot/feedback.jsonl
+
 # Spyder project settings
 .spyderproject
 .spyproject

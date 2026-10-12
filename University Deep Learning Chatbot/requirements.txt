@@ -1,0 +1,6 @@
+Flask>=3.0,<4
+scikit-learn>=1.4,<2
+nltk>=3.8,<4
+# Optional: only needed if you retrain or use the legacy Keras model
+# tensorflow>=2.15
+# keras>=3
